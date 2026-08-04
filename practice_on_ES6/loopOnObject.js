@@ -23,9 +23,10 @@ const forofentries = (oo) => {
 
 //  --> map()-এর ভিতরে destructuring !
 const entriesDestructure = (obj) => {
-    return Object.entries(obj).map(([key, value]) => {
+    const result = Object.entries(obj).map(([key, value]) =>  {
         return [key, value];
     });
+    return result
 };
 
 
