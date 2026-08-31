@@ -1,3 +1,8 @@
+//  Used assignment operator instead of comparison
+//  Average calculation was dividing inside reduce
+//  Oldest user comparison result was not being returned
+
+
 const users = [
   { name: "Rafi", age: 22, active: true },
   { name: "Nabil", age: 19, active: false },
