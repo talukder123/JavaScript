@@ -1,3 +1,5 @@
+// check if 2 strings are anagram or not!
+
 function isAnagram(s1, s2) {
     let str1 = s1.toLowerCase()
     let str2 = s2.toLowerCase()
